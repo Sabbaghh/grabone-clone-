@@ -1,0 +1,16 @@
+
+.dropDownList{
+    cursor: pointer;
+    margin-right: 1em;
+}
+.dropDownList select{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: var(--text-color-secondary);
+    font-size: 1.2em;
+}
+.dropDownList .icon{
+    font-size: 1.8rem;
+     margin-right: 0.5em;
+}
