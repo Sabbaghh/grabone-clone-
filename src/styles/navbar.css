@@ -2,7 +2,8 @@
 	position: fixed;
 	top: 0;
 	width: 100%;
+	z-index: 2;
 }
-#banner-brand img {
+#brand img {
 	width: 62%;
 }

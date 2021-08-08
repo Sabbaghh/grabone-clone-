@@ -7,6 +7,7 @@ const App = () => {
 		<>
 			<NavBar />
 			<Home />
+			<div style={{ height: '200vh' }}></div>
 		</>
 	);
 };
