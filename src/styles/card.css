@@ -1,0 +1,42 @@
+.card{
+	background-color: var(--color-white);
+	height: 75vh;
+	border-radius: 0.3em;
+	 overflow:hidden; 
+        white-space:nowrap; 
+        text-overflow: ellipsis;
+	cursor: pointer;
+	border-bottom: 0.1px solid rgba(000, 000, 000, 0.3);
+}
+.card-image{
+	border-radius: inherit;
+	height: 60%;
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.card-badge{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.favorite{
+	cursor: pointer;
+	background-color: rgba(255, 255, 255, 0.9);
+	font-size: 1.3em;
+	padding: 0.3em;
+	border-radius: 50%;
+	position: absolute;
+	top: 0.5em;
+	right: 0.5em;
+	border: 1px solid var(--color-white);
+}
+.bought{
+	line-height: 7em;
+}
+@media (min-width: 768px) {
+	.card{
+		width: 45%;
+	}
+}
