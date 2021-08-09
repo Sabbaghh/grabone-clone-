@@ -2,7 +2,7 @@ import React from 'react';
 
 const Banner = () => {
 	return (
-		<div className='banner flex justify-center align-center flex-direction-column'>
+		<div className='banner flex justify-center align-center flex-direction-column p-2'>
 			<a href='#!'>
 				<img src='./images/banner-LG.png' alt='banner-LG' className='hide-sm' />
 				<img src='./images/banner.png' alt='banner-sm' className='hide-lg' />

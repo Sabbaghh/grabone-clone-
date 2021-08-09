@@ -51,7 +51,7 @@ body{
 	padding: 1em;
 }
 .font-sm {
-	font-size: 12px;
+	font-size: 18px;
 }
 .mt-2 {
 	margin-top: 2em;
@@ -81,7 +81,7 @@ body{
 	background-color: var(--color-secondary);
 }
 .hide-lg {
-	display: block;
+	display: fixed;
 }
 .text-primary{
 	color: var(--color-primary);

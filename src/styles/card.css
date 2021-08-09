@@ -1,14 +1,16 @@
 .card {
 	background-color: var(--color-white);
-	height: 32em;
-	border-radius: 0.3em;
+	height: 41em;
+	border-radius: 0.2em;
 	overflow: hidden;
 	cursor: pointer;
 	border-bottom: 0.1px solid rgba(000, 000, 000, 0.3);
+	font-size: 13px;
+	width: 98%;
 }
 .card-image {
 	border-radius: inherit;
-	height: 60%;
+	height: 27em;
 	position: relative;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -36,7 +38,8 @@
 	text-overflow: ellipsis;
 }
 .bought {
-	line-height: 7em;
+	line-height: 5em;
+	font-size: 18px;
 }
 
 /* plain card */
@@ -47,10 +50,10 @@
 	border-radius: 0.3em;
 	overflow: hidden;
 	border-bottom: 0.1px solid rgba(000, 000, 000, 0.3);
-	font-size: 12px;
+	font-size: 11px;
 }
 .plain-card .email-input {
-	width: 60%;
+	width: 65%;
 	height: 4.5em;
 	border: 2px solid rgba(000, 000, 000, 0.1);
 	border-radius: 0.3em;
@@ -62,8 +65,8 @@
 	margin-left: 0.5em;
 }
 .plain-card .sub-btn {
-	height: 4em;
-	width: 40%;
+	height: 3.5em;
+	width: 25%;
 	border-top-right-radius: 0.3em;
 	border-bottom-right-radius: 0.3em;
 	border: none;
@@ -73,15 +76,20 @@
 }
 @media (min-width: 768px) {
 	.card {
-		width: 40%;
+		width: 30em;
 		margin: 0.5em; 
+		height: 38em;
+		font-size: 18px;
 	}
+	.card-image {
+	height: 65%;
+}
 	.plain-card {
 		font-size: 16px;
-		width: 81.5%;
+		width: 80%;
 	}
 	.plain-card .email-input {
-		height: 3.5em;
+		height: 3.9em;
 		width: 70%;
 	}
 	.plain-card .email-input input {

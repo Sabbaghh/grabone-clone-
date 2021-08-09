@@ -1,23 +1,27 @@
 import React from 'react';
-import Header from '../components/Header';
 import Banner from '../components/Banner';
 import Card from '../components/Card';
 import headerData from '../data/headerData';
 import PlainCard from '../components/PlainCard';
+import Section from '../components/Section';
 import '../styles/HomeScreen.css';
 
 const Home = () => {
 	return (
-		<div className='HomeScreen'>
+		<div className='flex justify-center HomeScreen align-center flex-direction-column'>
 			<Banner />
-			<div className='flex flex-wrap justify-center mt-1'>
+			<div className='flex flex-wrap justify-center w-full align-center'>
 				{headerData.map((cardData) => {
 					return <Card key={cardData.id} cardData={cardData} />;
 				})}
 			</div>
-			<div className='flex justify-center align-center'>
-				<PlainCard message='Get the best deals delivered direct to your inbox each day' />
-			</div>
+			<PlainCard message='Get the best deals delivered direct to your inbox each day' />
+			<Section sectionName='Featured Auckland deals' cardData={headerData} />
+			<Section sectionName='Escapes' cardData={headerData} />
+			<Section
+				sectionName='Activities, Events & Outdoors'
+				cardData={headerData}
+			/>
 		</div>
 	);
 };

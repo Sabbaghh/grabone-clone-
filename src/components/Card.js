@@ -3,7 +3,7 @@ import '../styles/card.css';
 
 const Card = ({ cardData }) => {
 	return (
-		<div className='card mt-2'>
+		<div className='mt-1 card'>
 			{cardData.image && (
 				<div
 					className='card-image'
@@ -12,7 +12,7 @@ const Card = ({ cardData }) => {
 					{cardData.badge && (
 						<img className='card-badge' src={cardData.badge} alt='badge' />
 					)}
-					<div className='favorite flex justify-center align-center'>
+					<div className='flex justify-center favorite align-center'>
 						<i className='far fa-heart'></i>
 					</div>
 				</div>
@@ -30,14 +30,14 @@ const Card = ({ cardData }) => {
 					</p>
 				)}
 				{cardData.numOfBuyers && (
-					<div className='flex space-between mt-1 position-relative'>
+					<div className='flex mt-1 space-between position-relative'>
 						<span className='text-secondary opacity-1-2 bought'>
 							{cardData.numOfBuyers} bought
 						</span>
 						<div className='prices'>
 							<p className='text-end text-primary'>From</p>
 							<div>
-								<span className='text-sm text-secondary  opacity-1-2'>$56</span>{' '}
+								<span className='font-sm text-secondary opacity-1-2'>$56</span>{' '}
 								{`  `}
 								<span className='text-lg text-primary'>$35</span>
 							</div>
