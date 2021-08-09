@@ -52,28 +52,6 @@
 	border-bottom: 0.1px solid rgba(000, 000, 000, 0.3);
 	font-size: 11px;
 }
-.plain-card .email-input {
-	width: 65%;
-	height: 4.5em;
-	border: 2px solid rgba(000, 000, 000, 0.1);
-	border-radius: 0.3em;
-}
-.plain-card .email-input input {
-	width: 100%;
-	border: none;
-	outline: none;
-	margin-left: 0.5em;
-}
-.plain-card .sub-btn {
-	height: 3.5em;
-	width: 25%;
-	border-top-right-radius: 0.3em;
-	border-bottom-right-radius: 0.3em;
-	border: none;
-	outline: none;
-	color: var(--color-white);
-	box-shadow: 1px 1px 5px var(--color-primary);
-}
 @media (min-width: 768px) {
 	.card {
 		width: 30em;
@@ -87,21 +65,5 @@
 	.plain-card {
 		font-size: 16px;
 		width: 80%;
-	}
-	.plain-card .email-input {
-		height: 3.9em;
-		width: 70%;
-	}
-	.plain-card .email-input input {
-		font-size: 25px;
-	}
-	.plain-card .email-input .icon {
-		font-size: 25px;
-		padding: 0.5em;
-	}
-	.plain-card .sub-btn {
-		width: 20%;
-		font-size: 20px;
-		height: 3em;
 	}
 }

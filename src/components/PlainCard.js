@@ -1,17 +1,12 @@
 import React from 'react';
 import '../styles/card.css';
+import Subscribe from './Subscribe';
 
 const PlainCard = ({ message }) => {
 	return (
-		<div className='plain-card p-2 mt-1'>
+		<div className='p-2 mt-1 plain-card'>
 			<h1 className='text-primary'>{message}</h1>
-			<div className='flex align-center mt-2 w-full'>
-				<div className='flex align-center email-input'>
-					<i className=' icon far fa-envelope color-secondary opacity-1-2 hide-sm' />
-					<input type='email' placeholder='Enter email address' />
-				</div>
-				<button className='bg-primary sub-btn'>Subscribe</button>
-			</div>
+			<Subscribe />
 		</div>
 	);
 };

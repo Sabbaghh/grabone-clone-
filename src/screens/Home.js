@@ -8,7 +8,7 @@ import '../styles/HomeScreen.css';
 
 const Home = () => {
 	return (
-		<div className='flex justify-center HomeScreen align-center flex-direction-column'>
+		<main className='flex justify-center HomeScreen align-center flex-direction-column'>
 			<Banner />
 			<div className='flex flex-wrap justify-center w-full align-center'>
 				{headerData.map((cardData) => {
@@ -22,7 +22,7 @@ const Home = () => {
 				sectionName='Activities, Events & Outdoors'
 				cardData={headerData}
 			/>
-		</div>
+		</main>
 	);
 };
 
