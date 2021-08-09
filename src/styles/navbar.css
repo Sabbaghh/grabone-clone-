@@ -5,5 +5,10 @@
 	z-index: 2;
 }
 #brand img {
-	width: 62%;
+	width: 60%;
+}
+@media (min-width: 768px) {
+	.navbar {
+	position: static;
+}
 }
