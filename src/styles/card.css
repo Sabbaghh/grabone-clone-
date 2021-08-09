@@ -1,14 +1,12 @@
-.card{
+.card {
 	background-color: var(--color-white);
-	height: 75vh;
+	height: 32em;
 	border-radius: 0.3em;
-	 overflow:hidden; 
-        white-space:nowrap; 
-        text-overflow: ellipsis;
+	overflow: hidden;
 	cursor: pointer;
 	border-bottom: 0.1px solid rgba(000, 000, 000, 0.3);
 }
-.card-image{
+.card-image {
 	border-radius: inherit;
 	height: 60%;
 	position: relative;
@@ -16,12 +14,12 @@
 	background-position: center;
 	background-size: cover;
 }
-.card-badge{
+.card-badge {
 	position: absolute;
 	bottom: 0;
 	left: 0;
 }
-.favorite{
+.favorite {
 	cursor: pointer;
 	background-color: rgba(255, 255, 255, 0.9);
 	font-size: 1.3em;
@@ -32,11 +30,70 @@
 	right: 0.5em;
 	border: 1px solid var(--color-white);
 }
-.bought{
+.card h2 {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.bought {
 	line-height: 7em;
 }
+
+/* plain card */
+.plain-card {
+	width: 95%;
+	background-color: red;
+	background-color: var(--color-white);
+	border-radius: 0.3em;
+	overflow: hidden;
+	border-bottom: 0.1px solid rgba(000, 000, 000, 0.3);
+	font-size: 12px;
+}
+.plain-card .email-input {
+	width: 60%;
+	height: 4.5em;
+	border: 2px solid rgba(000, 000, 000, 0.1);
+	border-radius: 0.3em;
+}
+.plain-card .email-input input {
+	width: 100%;
+	border: none;
+	outline: none;
+	margin-left: 0.5em;
+}
+.plain-card .sub-btn {
+	height: 4em;
+	width: 40%;
+	border-top-right-radius: 0.3em;
+	border-bottom-right-radius: 0.3em;
+	border: none;
+	outline: none;
+	color: var(--color-white);
+	box-shadow: 1px 1px 5px var(--color-primary);
+}
 @media (min-width: 768px) {
-	.card{
-		width: 45%;
+	.card {
+		width: 40%;
+		margin: 0.5em; 
+	}
+	.plain-card {
+		font-size: 16px;
+		width: 81.5%;
+	}
+	.plain-card .email-input {
+		height: 3.5em;
+		width: 70%;
+	}
+	.plain-card .email-input input {
+		font-size: 25px;
+	}
+	.plain-card .email-input .icon {
+		font-size: 25px;
+		padding: 0.5em;
+	}
+	.plain-card .sub-btn {
+		width: 20%;
+		font-size: 20px;
+		height: 3em;
 	}
 }
