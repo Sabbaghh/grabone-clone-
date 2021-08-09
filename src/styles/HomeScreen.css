@@ -1,9 +1,42 @@
 .HomeScreen{
-    margin-top: 3em;
-    padding: 2em;
+    margin-top:3em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
 }
 .banner img{
     width: 100%;
 }
-
-/* header */
+.section-link{
+    margin-top: 0.5em;
+    font-size: 14px;
+    justify-content: end;
+}
+.section-header{
+    flex-direction: column;
+}
+@media (min-width: 768px) {
+    .HomeScreen{
+        margin-top:0em;
+        padding: 0em;
+    }
+    .section-header{
+        flex-direction: row;
+    font-size: 30px;
+    align-items: center;
+        }
+    .section-link{
+    font-size: 18px;
+    margin-left: 1em;
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    width: 8em;
+    height: 2.5em;
+    justify-content: center;
+    border-radius: 0.3em;
+    }
+    .section-link span{
+    margin-left: 0.5em;
+    font-weight: bold;
+    }
+    
+}
