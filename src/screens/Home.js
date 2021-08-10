@@ -1,7 +1,7 @@
 import React from 'react';
 import Banner from '../components/Banner';
 import Card from '../components/Card';
-import headerData from '../data/headerData';
+import { headerData, FeaturedData, EscapesData } from '../data/headerData';
 import PlainCard from '../components/PlainCard';
 import Section from '../components/Section';
 import '../styles/HomeScreen.css';
@@ -16,12 +16,8 @@ const Home = () => {
 				})}
 			</div>
 			<PlainCard message='Get the best deals delivered direct to your inbox each day' />
-			<Section sectionName='Featured Auckland deals' cardData={headerData} />
-			<Section sectionName='Escapes' cardData={headerData} />
-			<Section
-				sectionName='Activities, Events & Outdoors'
-				cardData={headerData}
-			/>
+			<Section sectionName='Featured Auckland deals' cardData={FeaturedData} />
+			<Section sectionName='Escapes' cardData={EscapesData} />
 		</main>
 	);
 };

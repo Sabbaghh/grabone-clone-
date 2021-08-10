@@ -1,9 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../styles/card.css';
 
 const Card = ({ cardData }) => {
+	const [active, setActive] = useState(false);
 	return (
-		<div className='mt-1 card'>
+		<div
+			className='mt-1 card'
+			onMouseLeave={() => setActive(false)}
+			onMouseOver={() => setActive(true)}
+		>
 			{cardData.image && (
 				<div
 					className='card-image'
@@ -15,6 +20,11 @@ const Card = ({ cardData }) => {
 					<div className='flex justify-center favorite align-center'>
 						<i className='far fa-heart'></i>
 					</div>
+					{cardData.desc && (
+						<div className={`description ${active ? 'active' : ''}`}>
+							{cardData.desc}
+						</div>
+					)}
 				</div>
 			)}
 			<div className='p-1'>
@@ -37,9 +47,13 @@ const Card = ({ cardData }) => {
 						<div className='prices'>
 							<p className='text-end text-primary'>From</p>
 							<div>
-								<span className='font-sm text-secondary opacity-1-2'>$56</span>{' '}
+								<span className='font-sm text-secondary opacity-1-2 line-throw'>
+									{cardData.oldPrice}
+								</span>{' '}
 								{`  `}
-								<span className='text-lg text-primary'>$35</span>
+								<span className='text-lg text-primary'>
+									{cardData.newPrice}
+								</span>
 							</div>
 						</div>
 					</div>

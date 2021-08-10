@@ -28,6 +28,7 @@
 	}
 	.email-input input {
 		font-size: 25px;
+		height: 1em;
 	}
 	.email-input .icon {
 		font-size: 25px;

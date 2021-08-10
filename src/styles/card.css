@@ -16,6 +16,19 @@
 	background-position: center;
 	background-size: cover;
 }
+.description{
+	opacity: 0;
+	color: var(--color-white);
+	font-size: 30px;
+	height: 100%;
+	transition: all 0.3s ease-in-out;
+	padding: 1em;
+}
+.description.active{
+	opacity: 1;
+	background-color: rgba(1, 178, 238, 0.8);
+	transition: all 0.3s ease-in-out;
+}
 .card-badge {
 	position: absolute;
 	bottom: 0;
@@ -40,6 +53,9 @@
 .bought {
 	line-height: 5em;
 	font-size: 18px;
+}
+.line-throw{
+	text-decoration: line-through;
 }
 
 /* plain card */
