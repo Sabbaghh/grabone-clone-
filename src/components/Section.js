@@ -5,7 +5,10 @@ const Section = ({ sectionName, cardData }) => {
 		<section className='flex justify-center mt-2 flex-direction-column '>
 			<div className='flex p-1 section-header'>
 				<h3 className='color-secondary'>{sectionName}</h3>
-				<a href='#!' className='flex color-primary section-link align-center'>
+				<a
+					href='#!'
+					className='flex justify-center color-primary section-link align-center'
+				>
 					View More
 					<span>&gt;</span>
 				</a>
