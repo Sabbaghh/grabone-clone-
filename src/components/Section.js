@@ -1,5 +1,4 @@
 import React from 'react';
-import headerData from '../data/headerData';
 import Card from './Card';
 const Section = ({ sectionName, cardData }) => {
 	return (

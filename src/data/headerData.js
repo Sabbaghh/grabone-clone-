@@ -1,28 +1,5 @@
 export const headerData = [
 	{
-		id: 3,
-		image: './images/featured1.jpg',
-		badge: './images/badge1.png',
-		title: 'Premium Dessert Package for Two',
-		brand: 'OKO Dessert & Bar',
-		location: 'Newmarket',
-		numOfBuyers: 16,
-		oldPrice: 56,
-		newPrice: 35,
-		desc: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi',
-	},
-	{
-		id: 4,
-		image: './images/featured2.jpg',
-		badge: './images/badge1.png',
-		title: 'Premium Dessert Package for Two',
-		brand: 'OKO Dessert & Bar',
-		location: 'Newmarket',
-		numOfBuyers: 15,
-		newPrice: 99.9,
-		desc: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi',
-	},
-	{
 		id: 1,
 		image: './images/headerimg1.jfif',
 		badge: './images/badge1.png',

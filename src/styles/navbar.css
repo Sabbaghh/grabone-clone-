@@ -7,7 +7,7 @@
 #brand img {
 	width: 60%;
 }
-.bottom-nav{
+.bottom-nav {
 	width: 100%;
 	background-color: var(--color-white);
 	position: fixed;
@@ -19,41 +19,41 @@
 	overflow: hidden;
 	/* background-color: red; */
 }
-.bottom-nav span{ 
+.bottom-nav span {
 	font-size: 15px;
-	 margin-top: 0.5em;
-	}
-	
-.inner-nav{
+	margin-top: 0.5em;
+}
+
+.inner-nav {
 	display: none;
 }
-.secondary-nav{
+.secondary-nav {
 	box-shadow: 1px 1px 10px rgba(000, 000, 000, 0.1);
 	display: none;
 	height: 4em;
 	background-color: var(--color-white);
 }
-.secondary-nav a{
+.secondary-nav a {
 	font-size: 20px;
 }
 
 @media (min-width: 768px) {
 	.navbar {
-	position: static;
+		position: static;
 	}
-	.inner-nav{
-	display: flex;
-	font-size: 30px;
+	.inner-nav {
+		display: flex;
+		font-size: 30px;
 	}
-	.inner-nav a{
-	color: var(--color-white);
-	margin-right: 1em;
+	.inner-nav a {
+		color: var(--color-white);
+		margin-right: 1em;
 	}
-	.inner-nav span{ 
-	font-size: 15px;
-	margin-left: 0.5em;
+	.inner-nav span {
+		font-size: 15px;
+		margin-left: 0.5em;
 	}
-	.secondary-nav{
+	.secondary-nav {
 		display: flex;
 	}
 }

@@ -21,8 +21,8 @@
 	color: var(--color-white);
 	box-shadow: 1px 1px 5px var(--color-primary);
 }
-@media (min-width: 768px){
-    .email-input {
+@media (min-width: 768px) {
+	.email-input {
 		height: 3.9em;
 		width: 70%;
 	}

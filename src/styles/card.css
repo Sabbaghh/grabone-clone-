@@ -16,7 +16,7 @@
 	background-position: center;
 	background-size: cover;
 }
-.description{
+.description {
 	opacity: 0;
 	color: var(--color-white);
 	font-size: 30px;
@@ -24,7 +24,7 @@
 	transition: all 0.3s ease-in-out;
 	padding: 1em;
 }
-.description.active{
+.description.active {
 	opacity: 1;
 	background-color: rgba(1, 178, 238, 0.8);
 	transition: all 0.3s ease-in-out;
@@ -54,7 +54,7 @@
 	line-height: 5em;
 	font-size: 18px;
 }
-.line-throw{
+.line-throw {
 	text-decoration: line-through;
 }
 
@@ -71,13 +71,13 @@
 @media (min-width: 768px) {
 	.card {
 		width: 30em;
-		margin: 0.5em; 
+		margin: 0.5em;
 		height: 38em;
 		font-size: 18px;
 	}
 	.card-image {
-	height: 65%;
-}
+		height: 65%;
+	}
 	.plain-card {
 		font-size: 16px;
 		width: 80%;

@@ -1,5 +1,5 @@
-.search{
-    width: 30em;
+.search {
+	width: 30em;
 }
 .search-input {
 	height: 3em;
@@ -12,9 +12,9 @@
 	border: none;
 	outline: none;
 	margin-left: 0.5em;
-    font-size: 20px;
+	font-size: 20px;
 }
-.search-input .icon{
-    margin-left: 0.5em;
-    font-size: 25px;
+.search-input .icon {
+	margin-left: 0.5em;
+	font-size: 25px;
 }
